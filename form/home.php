@@ -1,3 +1,7 @@
+<?php
+//include auth_session.php file on all user panel pages
+include("auth_session.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,10 +32,12 @@
 <div class="nav">
 <ul class="">
     
-  <a href="#home" id="rcorners1">DATA ENTRY</a>
-  <a href="#about"  id="rcorners1">DISPLAY DATA</a>
+  <a href="index.php" id="rcorners1">DATA ENTRY</a>
+  <a href="display/display-index.php"  id="rcorners1">DISPLAY DATA</a>
   <a href="#clients"  id="rcorners1">UPDATE DATA</a>
   <a href="#contact"  id="rcorners1">DELETE DATA</a>
+  <a href="logout.php"  id="rcorners1">LOGOUT</a>
+
 </ul>
 </div>
 </body>

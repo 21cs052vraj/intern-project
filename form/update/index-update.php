@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title> Responsive Sidebar Menu  | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,19 +28,19 @@
  
     <!-- The sidebar -->
       <div class="sidebar">
-     <a class="formate border active" href="home.php">Home</a>
-         <a class="formate border" href="clients-table.php">Clients Table</a>
-         <a class="formate border" href="active-clients-table.php">Active Clients Table</a>
-         <a class="formate border"  href="head-table.php">Heads Table (Level 1 grouping)</a>
-         <a class="formate border" href="ledgers-table.php">Ledgers Table (Level 2 grouping)</a>
-         <a class="formate border" href="items-table.php">Items Table (Entry Items)</a>
-         <a class="formate border" href="firms-table.php">Firms Table (Audit Firm Master)</a>
-         <a class="formate border" href="signing-partner-table.php">Signing Partner (Auditor) Table</a>
-         <a class="formate border" href="heads-sequence.php">Heads Sequence Table</a>
-         <a class="formate border" href="transactions-table.php">Transactions Table (Entries)</a>
-         <a class="formate border" href="schedule-note-numbers-table.php">Schedule Note Numbers Table</a>
-         <a class="formate border" href="audit-report-table.php">Audit Report Table</a>
-         <a class="formate border" href="report-information-table.php">Report Information Table</a>
+      <a class="formate border active" href="index-update.php">Home</a>
+         <a class="formate border" href="clients-table-update.php">Clients Table</a>
+         <a class="formate border" href="active-clients-table-update.php">Active Clients Table</a>
+         <a class="formate border"  href="head-table-update.php">Heads Table (Level 1 grouping)</a>
+         <a class="formate border" href="ledgers-table-update.php">Ledgers Table (Level 2 grouping)</a>
+         <a class="formate border" href="items-table-update.php">Items Table (Entry Items)</a>
+         <a class="formate border" href="firms-table-update.php">Firms Table (Audit Firm Master)</a>
+         <a class="formate border" href="signing-partner-table-update.php">Signing Partner (Auditor) Table</a>
+         <a class="formate border" href="heads-sequence-table-update.php">Heads Sequence Table</a>
+         <a class="formate border" href="transactions-table-update.php">Transactions Table (Entries)</a>
+         <a class="formate border" href="schedule-note-numbers-table-update.php">Schedule Note Numbers Table</a>
+         <a class="formate border" href="audit-report-table-update.php">Audit Report Table</a>
+         <a class="formate border" href="report-information-table-update.php">Report Information Table</a>
 
         </div>
   

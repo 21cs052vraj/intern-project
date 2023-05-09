@@ -122,7 +122,9 @@ if (isset($_POST['done'])) {
       
       <div class="text-center">
      <button type="submit" name="done" class="btn btn-primary button text-center">submit</button>
-    </div>
+     <button class="btn-danger btn"> <a href="displayact.php?id=<?php?>" class="text-white"> Display </a> </button> 
+     <button class="btn-danger btn"> <a href="updateact.php?id=<?php?>" class="text-white"> Update </a> </button> 
+     </div>
     </form>
   </section>
 </div>

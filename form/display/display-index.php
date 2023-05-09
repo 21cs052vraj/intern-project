@@ -30,7 +30,7 @@
 
     <!-- The sidebar -->
     <div class="sidebar">
-        <a class="formate border active" href="display-index.php">Home</a>
+        <a class="formate border active" href="../home.php">Home</a>
         <a class="formate border" href="clients-table-display.php">Clients Table</a>
         <a class="formate border" href="active-clients-table-display.php">Active Clients Table</a>
         <a class="formate border" href="heads-table-display.php">Heads Table (Level 1 grouping)</a>

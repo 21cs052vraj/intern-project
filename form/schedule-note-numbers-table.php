@@ -48,77 +48,7 @@ if (isset($_POST['done'])) {
   }
   </style>
 <body>
-  <!-- <div class="sidebar">
   
-      
-       <a href="#">
-         <i class='bx ' ></i>
-         <span class="links_name"></span>
-       </a>
-       <span class="tooltip">Ledgers Table (Level 2 grouping)</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx ' ></i>
-         <span class="links_name">Items Table (Entry Items)</span>
-       </a>
-       <span class="tooltip">Items Table (Entry Items)</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx ' ></i>
-         <span class="links_name">Firms Table (Audit Firm Master)</span>
-       </a>
-       <span class="tooltip">Firms Table (Audit Firm Master)</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx ' ></i>
-         <span class="links_name">Signing Partner (Auditor) Table</span>
-       </a>
-       <span class="tooltip">Signing Partner (Auditor) Table</span>
-     </li>
-     <li>
-       <a href="#">
-         <i class='bx bx-cog' ></i>
-         <span class="links_name">Heads Sequence Table</span>
-       </a>
-       <span class="tooltip">Heads Sequence Table</span>
-     </li>
-     <li>
-      <a href="#">
-        <i class='bx ' ></i>
-        <span class="links_name">Transactions Table (Entries)</span>
-      </a>
-      <span class="tooltip">Transactions Table (Entries)</span>
-    </li>
-    <li>
-      <a href="#">
-        <i class='bx ' ></i>
-        <span class="links_name">Schedule Note Numbers Table</span>
-      </a>
-      <span class="tooltip">Schedule Note Numbers Table</span>
-    </li>
-    <li>
-      <a href="#">
-        <i class='bx ' ></i>
-        <span class="links_name">Audit Report Table</span>
-      </a>
-      <span class="tooltip">Audit Report Table</span>
-    </li>
-    <li>
-      <a href="#">
-        <i class='bx ' ></i>
-        <span class="links_name">Report Information Table</span>
-      </a>
-      <span class="tooltip">Report Information Table</span>
-    </li>
-    
-     
-    </ul>
-  </div>
-  <section class="home-section"> -->
-    <!-- The sidebar -->
     <div class="sidebar">
      <a class="formate border active" href="index.php">Home</a>
          <a class="formate border" href="clients-table.php">Clients Table</a>
