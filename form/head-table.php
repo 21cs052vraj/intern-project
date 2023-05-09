@@ -195,8 +195,7 @@ if (isset($_POST['done'])) {
       
        <div class="text-center">
      <button type="submit" name="done" class="btn btn-primary button text-center">submit</button>
-     <button class="btn-danger btn"> <a href="displayht.php?id=<?php?>" class="text-white"> Display </a> </button> 
-     </div>
+    </div>
     </form>
   </section>
 </div>

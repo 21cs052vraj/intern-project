@@ -17,7 +17,7 @@ if (isset($_POST['done'])) {
     $t98 = $_POST['t98'];
    
 
-    $q = " INSERT INTO `transactions_table(entries)`(`FY`, `CID`, `TTYPE`, `IID`, `LID`, `TID`, `TSIDE`, `TAMT`) VALUES ('$t91','$t92','$t93','$t94','$t95','$t96','$t97','$t98')";
+    $q = " INSERT INTO `transactions_table`(`FY`, `CID`, `TTYPE`, `IID`, `LID`, `TID`, `TSIDE`, `TAMT`) VALUES ('$t91','$t92','$t93','$t94','$t95','$t96','$t97','$t98')";
 
     $query = mysqli_query($con, $q);
    

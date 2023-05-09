@@ -15,7 +15,7 @@ if (isset($_POST['done'])) {
     $t56 = $_POST['t56'];
     
 
-    $q = " INSERT INTO `items_table(entry items)`(`IID`, `LID`, `INAME`, `ISIDE`, `CID`, `ACTIVE`) VALUES ('$t51','$t52','$t53','$t54','$t55','$t56')";
+    $q = " INSERT INTO `items_table`(`IID`, `LID`, `INAME`, `ISIDE`, `CID`, `ACTIVE`) VALUES ('$t51','$t52','$t53','$t54','$t55','$t56')";
 
     $query = mysqli_query($con, $q);
    

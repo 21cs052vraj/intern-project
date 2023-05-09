@@ -12,7 +12,7 @@ if (isset($_POST['done'])) {
     $t73 = $_POST['t73'];
  
 
-    $q = " INSERT INTO `signing_partner_(auditor)_table`(`MID`, `MNAME`, `(FIRMS.FID)`) VALUES ('$t71','$t72','$t73')";
+    $q = " INSERT INTO `signing_partner_table`(`MID`, `MNAME`, `(FIRMS.FID)`) VALUES ('$t71','$t72','$t73')";
 
     $query = mysqli_query($con, $q);
    

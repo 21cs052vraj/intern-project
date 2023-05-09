@@ -10,12 +10,11 @@ if (isset($_POST['done'])) {
     $t41 = $_POST['t41'];
     $t42 = $_POST['t42'];
     $t43 = $_POST['t43'];
-    $t44 = $_POST['t44'];
     $t45 = $_POST['t45'];
     $t46 = $_POST['t46'];
   
 
-    $q = " INSERT INTO `ledgers_table(level 2 grouping)`(`LID`, `HID`, `LNAME`, `CID`, `ACTIVE`) VALUES ('$t41','$t42','$t43','$t44','$t45')";
+    $q = " INSERT INTO `ledgers_table`(`LID`, `HID`, `LNAME`, `CID`, `ACTIVE`) VALUES ('$t41','$t42','$t43','$t45','$t46')";
 
     $query = mysqli_query($con, $q);
    
@@ -115,12 +114,6 @@ if (isset($_POST['done'])) {
         <label for="inputEmail3" class="col-sm-2 col-form-label formate border">Text of reported heading  :  </label>
         <div class="col-sm-10 formate border">
           <input type="text" name="t43"class="form-control my-3" id="inputEmail3">
-        </div>
-      </div>
-      <div class="row mb-3 my-2 mx-2">
-        <label for="inputEmail3" class="col-sm-2 col-form-label formate border">Side of each item (Debit/Credit)  :  </label>
-        <div class="col-sm-10 formate border">
-          <input type="text" name="t44"class="form-control my-3" id="inputEmail3">
         </div>
       </div>
       <div class="row mb-3 my-2 mx-2">
