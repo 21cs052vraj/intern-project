@@ -1,4 +1,9 @@
 <?php
+require('db.php');
+// include("auth_session.php");
+?>
+
+<?php
 
 $con = mysqli_connect('localhost', 'root');
 

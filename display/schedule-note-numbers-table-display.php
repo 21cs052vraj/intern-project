@@ -1,3 +1,7 @@
+<?php
+require('db.php');
+// include("auth_session.php");
+?>
 <!DOCTYPE html>
 <!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
 <html lang="en" dir="ltr">
